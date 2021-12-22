@@ -65,7 +65,7 @@ namespace MarsQA_1.Pages
          }
         
 
-          /**   public static void AddDataValidate()
+            public static void AddDataValidate()
              { 
                 var wait=new WebDriverWait(Driver.driver,new TimeSpan(0,0,20));
 
@@ -74,7 +74,7 @@ namespace MarsQA_1.Pages
                 Assert.That(MessageBox.Text == "ISTQB Foundatation Level has been added to your certification", "Actual Message an Expected Year Message do not match.");
                 
             
-              } **/
+              } 
 
         
 
@@ -99,7 +99,7 @@ namespace MarsQA_1.Pages
                 }
             }
                
-           /** public static void ValidateUpdateData()
+            public static void ValidateUpdateData()
             {
             
 
@@ -108,7 +108,7 @@ namespace MarsQA_1.Pages
                  IWebElement UpdatedMessageBox = Driver.driver.FindElement(By.ClassName("ns-box-inner"));
             
                  Assert.That(UpdatedMessageBox.Text == "MathsComCertified has been updated to your certification", "ActualUpdatedMessage an Expected Message do not match");
-            }**/
+            }
 
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//     
 
@@ -123,7 +123,7 @@ namespace MarsQA_1.Pages
               
            }
 
-              /** public static void ValidateDeletedData()
+               public static void ValidateDeletedData()
                 {
                      var wait=new WebDriverWait(Driver.driver,new TimeSpan(0,0,10));
 
@@ -131,7 +131,7 @@ namespace MarsQA_1.Pages
 
                      Assert.That(DeletedMessage.Text == "MathsComCertified has been deleted from your certification", "Certificate record hasn't been deleted");
 
-                }**/
+                }
     }
 
 }

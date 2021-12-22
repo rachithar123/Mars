@@ -50,20 +50,20 @@ namespace MarsQA_1.Feature
         public void ThenTheSellersAbleToViewCertificateSuccessfullyAdded()
         {
             
-          //NewCertificate.AddDataValidate();
+          NewCertificate.AddDataValidate();
         }
 
         [Then(@"The sellers' able to see Certificate Updated Successfully")]
         public void ThenTheSellersAbleToSeeCertificateUpdatedSuccessfully()
         {
-           //NewCertificate.ValidateUpdateData();
+           NewCertificate.ValidateUpdateData();
            
         }
 
         [Then(@"The message should be Certificate Deleted Successfully")]
         public void ThenTheMessageShouldBeCertificateDeletedSuccessfully()
         {
-           // NewCertificate.ValidateDeletedData();
+            NewCertificate.ValidateDeletedData();
           
         }
 
